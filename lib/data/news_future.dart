@@ -2,9 +2,8 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:logger/logger.dart';
-import 'package:retrofit_practice_w2/define_gen_api.dart';
 import 'dart:convert';
-
+import '../api/define_api.dart';
 import '../model/actor_news.dart';
 Future<ActorNews> getActorNewsFuture(String nconst) async{
   Logger logger  = Logger();
