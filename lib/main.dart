@@ -1,13 +1,7 @@
-import 'dart:convert';
-import 'dart:io';
-import 'package:dio/dio.dart';
+
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:retrofit_practice_w2/define_gen_api.dart';
 import 'package:retrofit_practice_w2/screens/news.dart';
-import 'dart:convert';
-
-import 'model/actor_news.dart';
 
 final logger = Logger();
 void main() async {
